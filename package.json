@@ -1,0 +1,11 @@
+{
+  "name": "cubezerk",
+  "version": "1.0.0",
+  "description": "You are a cube fighting of Zerks",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "David Martinez-Lundström",
+  "license": "ISC"
+}

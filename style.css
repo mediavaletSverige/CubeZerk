@@ -1,0 +1,30 @@
+:scope {
+  --safe-width: calc(1280px * 0.9);
+  --safe-height: calc(720px * 0.825);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: gray;
+  cursor: crosshair;
+}
+
+#gameScreen {
+  position: absolute;
+  background-color: lightgray;
+  inset: 50%;
+  transform: translate(-50%, -50%);
+  margin-bottom: 56.25%;
+}
+
+#buildings,
+#car,
+#rock,
+#fallingRock {
+  display: none;
+}
